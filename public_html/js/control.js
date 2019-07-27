@@ -5,7 +5,7 @@ var windowHeight = window.innerHeight;
 var windowWidth = $(window).width() - 17;
 
 var pairing = "";
-var urlPath = "http://168.168.37.15:3000/";
+var urlPath = "http://192.168.56.1:3000/";
 //var urlPath = "http://lohei.sg:3000/";
 
 
