@@ -1,0 +1,596 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font: 13px Helvetica, Arial; }
+/*      form { background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%; color:#ffffff; }
+form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
+form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
+#messages { list-style-type: none; margin: 0; padding: 0; }
+#messages li { padding: 5px 10px; }
+#messages li:nth-child(odd) { background: #eee; }*/
+body{
+  background: url('../images/LoHei_objects/bg.png') repeat;
+}
+#center-img{
+ background: url('../images/LoHei_objects/Center.png') center center no-repeat; 
+
+ position: absolute;
+ z-index: -100;
+    width:100%; 
+   height:100%; 
+}
+#desktop{
+  overflow: hidden;
+/*  border: 1px solid #ff0000;*/
+}
+/*#desktop .label-container{
+  padding: 20px 0px;
+  text-align: center;
+}*/
+
+.token-txt{
+  padding-top: 15px;
+  font-size: 20px;
+  text-shadow: 4px 4px 2px rgba(255, 255, 255, 1);
+}
+
+#desktop .label-container img{
+/*  margin: 0 auto;*/
+}
+.hide{
+  display: none;
+}
+
+#prepareIngredientsContainer,#ingredientsContainer{
+ /* display: none;*/
+}
+
+#welcome-screen,#screen-1{
+  margin: 0 auto;
+
+  text-align: center;
+/*  border: 1px solid #ff0000;*/
+
+}
+
+#screen-2{
+  text-align: center;
+
+}
+#screen-2 .intro{
+/*  margin-top:10%; */
+}
+#screen-2 .stage{
+  text-align: center;
+
+}
+
+#screen-2 .stage .action-instruction{
+position:absolute; 
+margin: -20px -50px; 
+width:100px; 
+bottom:10%; 
+left:50%;
+
+}
+#screen-2 .stage .ingredients-container{
+  z-index: -1;
+}
+
+
+
+#screen-3{
+  text-align: center;
+
+}
+#screen-3 .intro{
+
+}
+#screen-3 .stage{
+  text-align: center;
+
+}
+
+#screen-3 .stage .action-instruction{
+ position: absolute;
+ left: 42%;
+ bottom: 5%;
+
+}
+#screen-3 .stage .ingredients-container{
+  z-index: -1;
+}
+
+
+#screen-4{
+  text-align: center;
+
+}
+#screen-4 .intro{
+
+}
+#screen-4 .stage{
+  text-align: center;
+
+}
+
+#screen-4 .stage .action-instruction{
+ position: absolute;
+ left: 42%;
+ bottom: 5%;
+
+}
+#screen-4 .stage .ingredients-container{
+  z-index: -1;
+}
+
+
+#screen-5{
+  text-align: center;
+
+}
+#screen-5 .intro{
+
+}
+#screen-5 .stage{
+  text-align: center;
+
+}
+
+#screen-5 .stage .action-instruction{
+ position: absolute;
+ left: 42%;
+ bottom: 5%;
+
+}
+#screen-5 .stage .ingredients-container{
+  z-index: -1;
+}
+
+
+#screen-6{
+  text-align: center;
+
+}
+#screen-6 .intro{
+
+}
+#screen-6 .stage{
+  text-align: center;
+
+}
+
+#screen-6 .stage .action-instruction{
+ position: absolute;
+    margin: -20px -50px;
+    width: 100px;
+    bottom: 10%;
+    left: 50%;
+
+}
+.animated-item{
+  max-height: 680px;
+}
+#screen-6 .stage .ingredients-container{
+  z-index: -1;
+}
+#screen-6 .stage .animate-parent{
+  min-width: 80%;
+    min-height: 250px;
+  /*border: 1px solid #ff0000;*/
+}
+
+#screen-7{
+  text-align: center;
+
+}
+#screen-7 .intro{
+ 
+}
+#screen-7 .stage{
+  text-align: center;
+
+}
+
+#screen-7 .stage .action-instruction{
+position: absolute;
+    margin: -20px -50px;
+    width: 100px;
+    bottom: 10%;
+    left: 50%;
+
+}
+#screen-7 .stage .ingredients-container{
+  z-index: -1;
+}
+#screen-7 .stage .animate-parent{
+  min-width: 80%;
+    min-height: 250px;
+/*  border: 1px solid #ff0000;*/
+}
+
+
+#screen-8{
+  text-align: center;
+
+}
+#screen-8 .intro{
+
+}
+#screen-8 .stage{
+  text-align: center;
+
+}
+
+#screen-8 .stage .action-instruction{
+position: absolute;
+    margin: -20px -50px;
+    width: 100px;
+    bottom: 10%;
+    left: 50%;
+
+}
+#screen-8 .stage .ingredients-container{
+  z-index: -1;
+}
+#screen-8 .stage .animate-parent{
+  min-width: 80%;
+    min-height: 250px;
+/*  border: 1px solid #ff0000;*/
+}
+
+
+#screen-9{
+  text-align: center;
+
+}
+#screen-9 .intro{
+/*  margin-top:10%; */
+}
+#screen-9 .stage{
+  text-align: center;
+
+}
+
+#screen-9 .stage .action-instruction{
+position:absolute; 
+margin: -20px -50px; 
+width:100px; 
+bottom:10%; 
+left:50%;
+
+}
+#screen-9 .stage .ingredients-container{
+  z-index: -1;
+}
+
+
+#screen-10{
+  text-align: center;
+
+}
+#screen-10 .intro{
+/*  margin-top:10%; */
+}
+#screen-10 .stage{
+  text-align: center;
+
+}
+
+#screen-10 .stage .action-instruction{
+position:absolute; 
+margin: -20px -50px; 
+width:100px; 
+bottom:10%; 
+left:50%;
+
+}
+#screen-10 .stage .ingredients-container{
+  z-index: -1;
+}
+
+
+
+#screen-11{
+  position: absolute;
+  text-align: center;
+  z-index: -1;
+  top: 0px;
+/*  border: 1px solid #ff0000;*/
+  background: url('../images/LoHei_objects/Plate2.png') no-repeat bottom center;
+  background-size: 80%;   
+
+}
+#screen-11 .intro{
+
+}
+#screen-11 .stage{
+  text-align: center;
+
+}
+
+#screen-11 .stage .action-instruction{
+position:absolute; 
+margin: -20px -50px; 
+width:100px; 
+bottom:10%; 
+left:50%;
+
+}
+#screen-11 .stage .ingredients-container{
+  z-index: -1;
+}
+
+
+
+#screen-12{
+  text-align: center;
+
+}
+#screen-12 .intro{
+/*  margin-top:10%; */
+}
+#screen-12 .stage{
+  text-align: center;
+
+}
+
+#screen-12 .stage .action-instruction{
+position:absolute; 
+margin: -20px -50px; 
+width:100px; 
+bottom:10%; 
+left:50%;
+
+}
+#screen-12 .stage .ingredients-container{
+  z-index: -1;
+}
+
+#screen-13{
+ position:absolute; 
+  text-align: center;
+  z-index: -1;
+  top: 0px;
+/*  border: 1px solid #ff0000;*/
+  background: url('../images/LoHei_objects/Plate2.png') no-repeat bottom center;
+  background-size: 80%;   
+
+}
+#screen-13 .intro{
+
+}
+#screen-13 .stage{
+  text-align: center;
+
+}
+
+#screen-13 .stage .action-instruction{
+position:absolute; 
+margin: -20px -50px; 
+width:100px; 
+bottom:10%; 
+left:50%;
+
+}
+#screen-13 .stage .ingredients-container{
+  z-index: -1;
+}
+
+#screen-13 .proverbs{
+margin-top: 10%;
+}
+
+
+
+
+
+
+.ingredients-container{
+    text-align: center;
+    position: absolute;
+}
+#screen-1{
+  z-index: -1;
+  background: url('../images/LoHei_objects/Plate1.png') no-repeat bottom center;
+    background-size: 80%; 
+}
+
+
+
+#connect-container{
+  margin: 200px auto;
+  width: 250px;
+  text-align: center;
+}
+
+#message-container{
+  margin: 200px auto;
+  width: 450px;
+}
+
+#ingredientsContainer{
+  margin: 0 auto;
+  position: absolute;
+  /*overflow: hidden;*/
+  top:0px;
+/*  border: 1px solid #ff0000;*/
+  z-index: -1;
+  background: url('../images/LoHei_objects/plate.png') no-repeat bottom center;
+}
+
+/* MOBILE */
+#screen-1-container{
+    margin: 0 auto;
+  padding-top: 10%;
+}
+#screen-1-container .btn-container{
+    margin: 30% auto;
+    width: 50%;
+    text-align: center;
+}
+
+#btn-start, #btn-action{
+  width:450px;
+  height: 250px;
+  font-size: 26px;
+}
+
+.ingredients-elements{
+position: absolute;
+max-width: 100%;
+}
+.hide, #no {
+  display: none;  
+}
+#ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  -webkit-radius: 100%;
+  background-color: red;
+  position:absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.outer {
+    width: 50px;
+    height: 250px;
+    border: 2px solid #ccc;
+    overflow: hidden;
+    
+    position: relative;
+    
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.inner, .inner div {
+    width: 100%;
+    overflow: hidden;
+    /*left: -2px;*/
+    position: absolute;
+}
+
+.inner {
+    border: 2px solid #999;
+    border-top-width: 0;
+    background-color: #999;
+    
+    bottom: 0;
+    height: 0%;
+}
+
+.inner div {
+    border: 2px solid orange;
+    border-bottom-width: 0;
+    background-color: orange;
+    
+    top: 0;
+    width: 100%;
+    height: 5px;
+}
+
+a.share{
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 25px;
+  z-index: 999;
+}
+
+/* MOBILE */
+.content-container{
+margin-top: 20%;
+}
+#connect-token-container{
+  margin-top: 20%;
+}
+
+.trigger-container{
+ margin-top: 20%;
+ text-align: center;
+}
+
+.txt-large{
+  font-size: 80px;
+}
+.button-large{
+  margin-top: 20px;
+  font-size: 80px;
+  padding: 20px 35px;
+  width: 100%;
+}
+.inputlarge{
+  text-align: center;
+  height: 150px;
+  font-size: 100px;
+}
+.anim-loading-large{
+  font-size: 100px;
+}
+
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+.ingredient-item img{
+  width: 550px;
+  margin-top: 50%;
+  pointer-events:none;-webkit-user-select:none; -webkit-touch-callout:none;
+}
+
+
+.mob-plate1-container{
+    background: url('../images/LoHei_objects/Plate1.png') no-repeat bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;   
+
+}
+
+/* DESKTOP ANIMATION */ 
+
+@keyframes desktop_label_up {
+    0%   {bottom: 0%; opacity: 0;}
+    100% {bottom: 35%; opacity: 1;}
+}
+
+@keyframes desktop_label_down {
+    0%   {bottom: 35%; opacity: 1;}
+    100% {bottom: 0%; opacity: 0;}
+}
+
+/* The element to apply the animation to */
+
+
+#div-label-container {
+    top: 50%;
+    left: 50%;
+    width:600px;
+    height:600px;
+    margin-top: -300px; /*set to a negative number 1/2 of your height*/
+    margin-left: -300px; /*set to a negative number 1/2 of your width*/
+    /*border: 1px solid #ccc;*/
+    position:fixed;
+
+}
+
+#div-label-container .label-container{
+  position: absolute;
+  bottom: 35%;
+  -webkit-animation: desktop_label_up 2s 0s 1 ease-in-out,
+                      desktop_label_down 2s 5s 1 ease-out forwards;
+
+
+}

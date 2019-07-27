@@ -1,0 +1,331 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Germs - LoHei</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="css/main.css" type="stylesheet">
+ 
+  </head>
+  <body>
+                
+    <div id="center-img"></div>
+
+    <div id="desktop">
+    <div id="div-label-container"> 
+      <div class="label-container">
+        <img class="label-0 label-item img-responsive" src="images/LoHei_objects/Label/Label2.png">
+        <img class="label-1 label-item img-responsive hide" src="images/LoHei_objects/Label/Label1.png">
+        <img class="label-2 label-item img-responsive hide" src="images/LoHei_objects/Label/Label3.png">
+        <img class="label-3 label-item img-responsive hide" src="images/LoHei_objects/Label/Label4.png">
+        <img class="label-4 label-item img-responsive hide" src="images/LoHei_objects/Label/Label5.png">
+        <img class="label-5 label-item img-responsive hide" src="images/LoHei_objects/Label/Label6.png">
+        <img class="label-6 label-item img-responsive hide" src="images/LoHei_objects/Label/Label7.png">
+        <img class="label-7 label-item img-responsive hide" src="images/LoHei_objects/Label/Label8.png">
+        <img class="label-8 label-item img-responsive hide" src="images/LoHei_objects/Label/Label9.png">
+        <img class="label-9 label-item img-responsive hide" src="images/LoHei_objects/Label/Label10.png">    
+      </div> 
+    </div>
+ <!--      <div class="label-container">
+        <img class="label-0 label-item img-responsive" src="images/LoHei_objects/Label/Label2.png">
+        <img class="label-1 label-item img-responsive hide" src="images/LoHei_objects/Label/Label1.png">
+        <img class="label-2 label-item img-responsive hide" src="images/LoHei_objects/Label/Label3.png">
+        <img class="label-3 label-item img-responsive hide" src="images/LoHei_objects/Label/Label4.png">
+        <img class="label-4 label-item img-responsive hide" src="images/LoHei_objects/Label/Label5.png">
+        <img class="label-5 label-item img-responsive hide" src="images/LoHei_objects/Label/Label6.png">
+        <img class="label-6 label-item img-responsive hide" src="images/LoHei_objects/Label/Label7.png">
+        <img class="label-7 label-item img-responsive hide" src="images/LoHei_objects/Label/Label8.png">
+        <img class="label-8 label-item img-responsive hide" src="images/LoHei_objects/Label/Label9.png">
+        <img class="label-9 label-item img-responsive hide" src="images/LoHei_objects/Label/Label10.png">    
+      </div>   -->
+
+
+      <div id="welcome-screen">
+        <div id="qrcode-container"></div>
+        <h3>Scan the code using your mobile phone or <br />visit http://lohei.sg:3000/control and type the token.</h3>
+      </div>
+      <div id="screen-1" style="display:none;">
+        <strong>Press Start Button on your Phone to begin</strong>
+      </div>
+
+      <div id="screen-2" style="display:none;">
+        <div class="intro">
+          <!-- <div id="label-container"><img src="images/LoHei_objects/Label-fish-img.png" width="350px;"/></div>      -->
+        </div>
+        <div class="stage" style="display:none;">
+          
+          <div class="ingredients-container"></div>      
+
+          <div class="action-instruction">  
+            <div><img src="images/LoHei_objects/phoneShake.gif"/></div>  
+          </div>
+<!--           <button id="test">TEST</button>
+          <div id="test-motion"></div>    -->       
+        </div>
+
+      </div>
+
+      <div id="screen-3" style="display:none;">
+        <div class="intro">
+          <div id="label-container"><img src="images/LoHei_objects/Label-lime-img.png" width="200px;"/></div>     
+        </div>
+        <div class="stage"></div>
+      </div>
+
+      <div id="screen-4" style="display:none;">
+        <div class="intro">
+          <div id="label-container"><img src="images/LoHei_objects/Label-peppercinnamon-img.png" width="450px;"/></div>     
+        </div>
+        <div class="stage" style="display:none;"></div>
+      </div>  
+
+      <div id="screen-5" style="display:none;">
+        <div class="intro">
+          <div id="label-container"><img src="images/LoHei_objects/Label-sauce-img.png" width="200px;"/></div>     
+        </div>
+        <div class="stage" style="display:none;"></div>
+      </div>  
+
+
+      <div id="screen-6" style="display:none;">
+        <div class="intro">
+          <div id="label-container"><img src="images/LoHei_objects/Label-carrot-img.png" width="680px;"/></div>     
+        </div>
+        <div class="stage" style="display:none;">
+          <div class="ingredients-container"></div>  
+          <div class="animate-parent">
+            <img class="carrot-animate-0 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-1.png">
+            <img class="carrot-animate-1 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-2.png">
+            <img class="carrot-animate-2 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-3.png">
+            <img class="carrot-animate-3 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-4.png">
+            <img class="carrot-animate-4 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-5.png">
+            <img class="carrot-animate-5 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-6.png">
+            <img class="carrot-animate-6 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-7.png">
+            <img class="carrot-animate-7 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-6.png">
+            <img class="carrot-animate-8 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-5.png">
+            <img class="carrot-animate-9 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-4.png">
+            <img class="carrot-animate-10 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-3.png">
+            <img class="carrot-animate-11 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-2.png">
+            <img class="carrot-animate-12 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-1.png">  
+            <img class="carrot-animate-14 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-2.png">
+            <img class="carrot-animate-15 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-3.png">
+            <img class="carrot-animate-16 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-4.png">
+            <img class="carrot-animate-17 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-5.png">
+            <img class="carrot-animate-18 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-6.png">
+            <img class="carrot-animate-19 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-7.png">
+            <img class="carrot-animate-20 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-6.png">
+            <img class="carrot-animate-21 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-5.png">
+            <img class="carrot-animate-22 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-4.png">
+            <img class="carrot-animate-23 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-3.png">
+            <img class="carrot-animate-24 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-2.png">
+            <img class="carrot-animate-25 hide animated-item" src="images/LoHei_objects/carrot-grider/carrot-1.png">                       
+          </div>          
+          <div class="action-instruction">  
+            <div><img src="images/LoHei_objects/phoneShake.gif"/></div>  
+          </div>
+
+        </div>
+      </div>  
+
+      <div id="screen-7" style="display:none;">
+        <div class="intro">
+          <div id="label-container"><img src="images/LoHei_objects/Label-greenraddish-img.png" width="680px;"/></div>     
+        </div>
+        <div class="stage" style="display:none;">
+          <div class="ingredients-container"></div>  
+          <div class="animate-parent">
+            <img class="greenRadish-animate-0 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-1.png">
+            <img class="greenRadish-animate-1 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-2.png">
+            <img class="greenRadish-animate-2 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-3.png">
+            <img class="greenRadish-animate-3 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-4.png">
+            <img class="greenRadish-animate-4 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-5.png">
+            <img class="greenRadish-animate-5 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-6.png">
+            <img class="greenRadish-animate-6 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-7.png">
+            <img class="greenRadish-animate-7 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-6.png">
+            <img class="greenRadish-animate-8 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-5.png">
+            <img class="greenRadish-animate-9 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-4.png">
+            <img class="greenRadish-animate-10 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-3.png">
+            <img class="greenRadish-animate-11 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-2.png">
+            <img class="greenRadish-animate-12 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-1.png">     
+            <img class="greenRadish-animate-13 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-2.png">
+            <img class="greenRadish-animate-14 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-3.png">
+            <img class="greenRadish-animate-15 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-4.png">
+            <img class="greenRadish-animate-16 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-5.png">
+            <img class="greenRadish-animate-17 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-6.png">
+            <img class="greenRadish-animate-18 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-7.png">
+            <img class="greenRadish-animate-19 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-6.png">
+            <img class="greenRadish-animate-20 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-5.png">
+            <img class="greenRadish-animate-21 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-4.png">
+            <img class="greenRadish-animate-22 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-3.png">
+            <img class="greenRadish-animate-23 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-2.png">
+            <img class="greenRadish-animate-24 hide animated-item" src="images/LoHei_objects/greenraddish-grider/greenraddish-1.png">                    
+          </div>          
+          <div class="action-instruction">  
+            <div><img src="images/LoHei_objects/phoneShake.gif"/></div>  
+          </div>
+
+        </div>
+      </div>  
+
+      <div id="screen-8" style="display:none;">
+        <div class="intro">
+          <div id="label-container"><img src="images/LoHei_objects/Label-whiteraddish-img.png" width="680px;"/></div>     
+        </div>
+        <div class="stage" style="display:none;">
+          <div class="ingredients-container"></div>  
+          <div class="animate-parent">
+            <img class="whiteRadish-animate-0 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-1.png">
+            <img class="whiteRadish-animate-1 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-2.png">
+            <img class="whiteRadish-animate-2 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-3.png">
+            <img class="whiteRadish-animate-3 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-4.png">
+            <img class="whiteRadish-animate-4 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-5.png">
+            <img class="whiteRadish-animate-5 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-6.png">
+            <img class="whiteRadish-animate-6 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-7.png">
+            <img class="whiteRadish-animate-7 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-6.png">
+            <img class="whiteRadish-animate-8 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-5.png">
+            <img class="whiteRadish-animate-9 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-4.png">
+            <img class="whiteRadish-animate-10 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-3.png">
+            <img class="whiteRadish-animate-11 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-2.png">
+            <img class="whiteRadish-animate-12 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-1.png">   
+            <img class="whiteRadish-animate-13 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-2.png">
+            <img class="whiteRadish-animate-14 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-3.png">
+            <img class="whiteRadish-animate-15 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-4.png">
+            <img class="whiteRadish-animate-16 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-5.png">
+            <img class="whiteRadish-animate-17 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-6.png">
+            <img class="whiteRadish-animate-18 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-7.png">
+            <img class="whiteRadish-animate-19 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-6.png">
+            <img class="whiteRadish-animate-20 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-5.png">
+            <img class="whiteRadish-animate-21 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-4.png">
+            <img class="whiteRadish-animate-22 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-3.png">
+            <img class="whiteRadish-animate-23 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-2.png">
+            <img class="whiteRadish-animate-24 hide animated-item" src="images/LoHei_objects/whiteraddish-grider/whiteraddish-1.png">                      
+          </div>          
+          <div class="action-instruction">  
+            <div><img src="images/LoHei_objects/phoneShake.gif"/></div>  
+          </div>
+        </div>
+      </div>  
+
+      <div id="screen-9"  style="display:none;">
+          <div class="intro">
+            <div id="label-container"><img src="images/LoHei_objects/Peanut1.png" width="350px;"/></div>     
+          </div>
+          <div class="stage" style="display:none;">
+            
+            <div class="ingredients-container"></div>      
+
+            <div class="action-instruction">  
+              <div><img src="images/LoHei_objects/phoneShake.gif"/></div>  
+            </div>
+    
+          </div>
+
+      </div>
+
+      <div id="screen-10" style="display:none;">
+          <div class="intro">
+            <div id="label-container"><img src="images/LoHei_objects/Crunch1.png" width="350px;"/></div>     
+          </div>
+          <div class="stage" style="display:none;">
+            
+            <div class="ingredients-container"></div>      
+
+            <div class="action-instruction">  
+              <div><img src="images/LoHei_objects/phoneShake.gif"/></div>  
+            </div>
+     
+          </div>
+
+      </div>
+
+
+      <div id="screen-11" style="display:none;">
+          <div class="intro">
+            <!-- <div id="label-container">Start Toss</div>      -->
+          </div>
+          <div class="stage" style="display:none;">
+            
+            <div class="ingredients-container"></div>      
+
+            <div class="action-instruction">  
+              <div><img src="images/LoHei_objects/phoneShake.gif"/></div>  
+            </div>
+     
+          </div>
+      </div>
+
+      <div id="screen-12" style="display:none;">
+          <div class="intro">
+            <!-- <div id="label-container">Start Toss</div>      -->
+          </div>
+          <div class="stage" style="display:none;">
+            
+            <div class="ingredients-container"></div>      
+
+            <div class="action-instruction">  
+<!-- <input id="btn-toss" class="btn btn-primary" value="PRESS"/> -->
+              <div><img src="images/LoHei_objects/phoneShake.gif"/></div>  
+            </div>
+     
+          </div>
+      </div>
+
+
+
+      <div id="screen-13" style="display:none;">
+          <div class="intro">
+            <!-- <div id="label-container">Start Toss</div>      -->
+          </div>
+          <div class="proverbs">
+            <img src="images/LoHei_objects/Proverbs/Proverb1.png" id="proverbs-1" class="hidden"/>
+            <img src="images/LoHei_objects/Proverbs/Proverb2.png" id="proverbs-2" class="hidden"/>
+          </div>  
+          <div class="stage" style="display:none;">
+            
+            <div class="ingredients-container"></div>      
+
+            <div class="action-instruction">  
+              <div><img src="images/LoHei_objects/phoneShake.gif"/></div>  
+            </div>
+     
+          </div>
+      </div>
+
+
+
+
+    </div>
+
+
+
+    <div id="mobile" class="hide">
+        <div id="screen-1-container" style="display:none;">
+          <div class="btn-container">
+            <button id="btn-start" class="btn btn-primary">START NOW</button>
+          </div>
+        </div>
+        <div id="screen-2-container"  style="display:none;">
+<!--           <div class="btn-container">
+            <input id="btn-action" class="btn btn-primary" value="PRESS"/>
+          </div> -->
+        </div>        
+
+      <div id="display-connected-token"  class="hide"></div>
+      <div id="display-error-message"></div>
+    </div>
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="js/jqSocialSharer-master/jqSocialSharer.min.js"></script>
+    <script src="js/main.js"></script>    
+
+  </body>
+</html>

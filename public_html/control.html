@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Germs - LoHei</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="css/main.css" type="stylesheet">
+ 
+  </head>
+  <body class=""> 
+  
+    <div id="center-img"></div>
+    <div id="mob-plate-container"></div>    
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        
+        <div class="col-md-12 content-container">
+          
+          <div id="connect-token-container">
+            <div class="txt-large">Enter Token:</div>
+            <input class="form-control input-lg inputlarge" id="txt-token" type="text">
+            <button id="btn-connect" class="btn btn-primary button-large">Connect</button>
+            <h3 style="text-align:center"><strong>Press connect button to pair with the desktop.</strong></h3>
+          </div>
+          <div id="loading-connect" class="anim-loading-large" style="display:none;"><span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span> Connecting...</div>
+        </div>
+
+        <div class="col-md-12 trigger-container" style="display:none;">
+          
+          <div class="btn-container">
+            <button id="btn-start" class="btn btn-primary">START NOW</button>
+          </div>
+
+        </div>
+
+        <div class="col-sm-12 item-container" style="display:none;">
+          <div class="ingredient-item"><img src="images/LoHei_objects/Fish1.png" class="img-responsive center-block"></div>          
+<!--           <div class="ingredient-item"><img src="images/LoHei_objects/Label-lime-img.png" class="img-responsive center-block"></div>
+          <div class="ingredient-item"><img src="images/LoHei_objects/Label-peppercinnamon-img.png" class="img-responsive center-block"></div>
+          <div class="ingredient-item"><img src="images/LoHei_objects/Label-sauce-img.png" class="img-responsive center-block"></div>
+          <div class="ingredient-item"><img src="images/LoHei_objects/Crunch1.png" class="img-responsive center-block"></div>
+          <div class="ingredient-item"><img src="images/LoHei_objects/Peanut1.png" class="img-responsive center-block"></div>
+          <div class="ingredient-item"><img src="images/LoHei_objects/mob-greenraddish-img.png" class="img-responsive center-block"></div>
+          <div class="ingredient-item"><img src="images/LoHei_objects/mob-whiteraddish-img.png" class="img-responsive center-block"></div>
+          <div class="ingredient-item"><img src="images/LoHei_objects/mob-carrots-img.png" class="img-responsive center-block"></div> -->                    
+
+        </div>
+
+
+      </div>
+
+    </div> <!-- /container -->
+
+
+
+
+
+   
+
+      <div id="display-connected-token"  class="hide"></div>
+      <div id="display-error-message"></div>
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <script src="js/control.js"></script>    
+
+  </body>
+</html>
